@@ -1,0 +1,21 @@
+# Ignore node_modules across all projects
+**/node_modules/
+**/node_modules/*
+
+# Ignore build and output directories
+**/.next/
+**/.vercel/
+**/.turbo/
+**/dist/
+**/build/
+
+# Ignore Next.js cache
+**/.next/cache/
+
+# Ignore environment variables and secrets
+**/.env
+**/.env.local
+**/.env.development
+**/.env.test
+**/.env.production
+**/.env.*
